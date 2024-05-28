@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyStudy.Shared", "EasyStu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyStudy.DB", "EasyStudy.DB\EasyStudy.DB.csproj", "{F415621A-AA9D-44C3-8369-DDC2FC0DAA04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyStudy.Service", "EasyStudy.Service\EasyStudy.Service.csproj", "{ADD0EF12-F8B9-44F0-A374-0474BA93C19E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyStudy.Packages", "EasyStudy.Packages\EasyStudy.Packages.csproj", "{61A3ED8D-DECC-4807-A0B0-EED44416F364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{F415621A-AA9D-44C3-8369-DDC2FC0DAA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F415621A-AA9D-44C3-8369-DDC2FC0DAA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F415621A-AA9D-44C3-8369-DDC2FC0DAA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD0EF12-F8B9-44F0-A374-0474BA93C19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD0EF12-F8B9-44F0-A374-0474BA93C19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD0EF12-F8B9-44F0-A374-0474BA93C19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD0EF12-F8B9-44F0-A374-0474BA93C19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A3ED8D-DECC-4807-A0B0-EED44416F364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A3ED8D-DECC-4807-A0B0-EED44416F364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A3ED8D-DECC-4807-A0B0-EED44416F364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A3ED8D-DECC-4807-A0B0-EED44416F364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
