@@ -5,9 +5,9 @@ namespace EasyStudy.Shared.Services;
 
 public interface IHomeworkService
 {
-    Task AddHomeworkAsync(Homework newHomework, CancellationToken token);
+    Task AddHomeworkAsync(Homework newHomework, Stream file, CancellationToken token);
 
-    Task UpdateHomeworkAsync(Homework updatedHomework, CancellationToken token);
+    Task UpdateHomeworkAsync(Homework updatedHomework, Stream file, CancellationToken token);
 
     Task RemoveHomework(int homeworkId, CancellationToken token);
 

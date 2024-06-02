@@ -14,4 +14,6 @@ public interface IClassService
     Task<Class> GetClassAsync(int classId, CancellationToken token);
 
     Task<List<Class>> GetAllAsync(CancellationToken token);
+
+    Task<IEnumerable<Class>> GetScheduleByClassAsync(int classId, CancellationToken token);
 }

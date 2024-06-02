@@ -13,8 +13,12 @@ public class Class : BaseEntity
     
     public DateTime DateBegin { get; set; }
     
+    public string LinkToClass { get; set; }
+    
+    public string Place { get; set; }
+    
     /// <summary>
-    /// Grades given to  students (id)
+    /// Grades given to students (id)
     /// </summary>
     public Dictionary<int, Grade> ClassGrades { get; set; }
 }

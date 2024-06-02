@@ -14,4 +14,6 @@ public interface IGroupService
     Task<Group> GetGroupAsync(int groupId, CancellationToken token);
 
     Task<List<Group>> GetAllAsync(CancellationToken token);
+
+    Task AddStudentAsync(int studentId, int groupId, CancellationToken token);
 }

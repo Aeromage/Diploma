@@ -10,4 +10,8 @@
       <ProjectReference Include="..\EasyStudy.Shared\EasyStudy.Shared.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AltairCA.EntityFrameworkCore.PostgreSQL.ColumnEncryption" Version="6.0.2.3" />
+    </ItemGroup>
+
 </Project>

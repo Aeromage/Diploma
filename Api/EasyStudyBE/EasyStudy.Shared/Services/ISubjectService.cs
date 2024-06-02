@@ -14,4 +14,6 @@ public interface ISubjectService
     Task<Subject> GetSubjectAsync(int subjectId, CancellationToken token);
 
     Task<List<Subject>> GetAllAsync(CancellationToken token);
+
+    Task AddTeacherToSubjectAsync(int subjectId, int teacherId);
 }
