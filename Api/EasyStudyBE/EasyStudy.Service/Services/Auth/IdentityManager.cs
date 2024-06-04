@@ -8,7 +8,6 @@ using EasyStudy.Shared.Entities.Settings;
 using EasyStudy.Shared.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using Rise.Core.Managers;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace EasyStudy.Service.Services.Auth;

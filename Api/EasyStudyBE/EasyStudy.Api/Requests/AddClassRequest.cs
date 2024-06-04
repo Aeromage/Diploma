@@ -1,11 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using EasyStudy.Shared.Entities.Domain;
 
-namespace EasyStudy.Shared.Entities.Domain;
+namespace EasyStudy.Api.Requests;
 
-/// <summary>
-/// Indicates single lesson
-/// </summary>
-public class Class : BaseEntity
+public class AddClassRequest
 {
     public Teacher Teacher { get; set; }
     
@@ -20,9 +18,4 @@ public class Class : BaseEntity
     
     [MaxLength(255)]
     public string Place { get; set; }
-    
-    /// <summary>
-    /// Grades given to students (id)
-    /// </summary>
-    public Dictionary<int, Grade> ClassGrades { get; set; }
 }

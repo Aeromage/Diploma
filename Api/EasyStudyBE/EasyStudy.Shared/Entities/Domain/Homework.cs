@@ -9,4 +9,6 @@ public class Homework : BaseEntity
     public Grade Grade { get; set; }
     
     public Student Student { get; set; }
+    
+    public Class Class { get; set; }
 }

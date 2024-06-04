@@ -1,6 +1,6 @@
 ﻿using EasyStudy.Shared.Entities.Auth;
 
-namespace Rise.Core.Managers;
+namespace EasyStudy.Shared.Services;
 
 /// <summary>
 ///     A service for user authentication and authorization.
